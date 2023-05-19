@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  @apply bg-backgroundMain font-poppins;
+}
+
+.app-container {
+  @apply px-7 pt-10;
+}
+
+.card-container {
+  @apply p-7 border-t-4 border-primaryBlue rounded-lg shadow-xl mb-8 flex flex-col items-end justify-end;
+}
+
+.text-container {
+  @apply flex flex-col text-left;
+}
