@@ -15,6 +15,10 @@ export default {
         textGrayishBlue: "#A3A5AE",
         backgroundMain: "#FAFAFA",
       },
+      width: {
+        550: "34.375rem",
+        380: "23.75rem",
+      },
     },
   },
   plugins: [],

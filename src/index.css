@@ -13,9 +13,18 @@ body {
 }
 
 .card-container {
-  @apply p-7 border-t-4 border-primaryBlue rounded-lg shadow-xl mb-8 flex flex-col items-end justify-end;
+  @apply md:flex md:flex-col md:items-center md:w-10/12 md:mx-auto
+}
+
+.card {
+  @apply p-7 border-t-4  rounded-lg shadow-xl mb-8 flex flex-col items-end justify-end;
+}
+
+.card {
+  @apply md:w-380
 }
 
 .text-container {
   @apply flex flex-col text-left;
 }
+
